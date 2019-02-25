@@ -38,7 +38,12 @@ rm mobile_image.tar.gz
 mv mobile_image/ input/ndsc-beginner/
 
 pip3 install gensim pymagnitude
-python3 -m pymagnitude.converter -i GoogleNews-vectors-negative300.bin -o GoogleNews-vectors-negative300.magnitude
+cd ~/input/quora-insincere-questions-classification
+python3 -m pymagnitude.converter -i GoogleNews-vectors-negative300/GoogleNews-vectors-negative300.bin -o GoogleNews-vectors-negative300.magnitude
+python3 -m pymagnitude.converter -i glove.840B.300d/glove.840B.300d.txt -o glove.840B.300d.magnitude
+python3 -m pymagnitude.converter -i paragram_300_sl999/paragram_300_sl999.txt -o paragram_300_sl999.magnitude
+python3 -m pymagnitude.converter -i wiki-news-300d-1M/wiki-news-300d-1M.vec -o wiki-news-300d-1M.magnitude
+
 
 # allow all access to all files
 chmod 777 -R *
