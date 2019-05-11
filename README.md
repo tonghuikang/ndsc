@@ -1,4 +1,4 @@
-# National Data Science Competition 2019
+# National Data Science Competition 2019 by Shopee
 Collaborated with [Zheng Xingjian](https://github.com/mrrollingjerry) <br>
 
 We have won the Merit award. Our score is placed 16th on the leaderboard.
@@ -6,17 +6,13 @@ We have won the Merit award. Our score is placed 16th on the leaderboard.
 ## Explanation of approach
 The following is our baseline code, with three NLP models and a simple linear blending.
 
-LSTM 
-- https://www.kaggle.com/huikang/baseline-lstm-pymag-3cheating-2100/
+**LSTM** https://www.kaggle.com/huikang/baseline-lstm-pymag-3cheating-2100/
 
-CNN (the rest of the model is the same)
-- https://www.kaggle.com/huikang/mastercopy-conv1d-hk/
+**CNN** https://www.kaggle.com/huikang/mastercopy-conv1d-hk/ (the rest of the model is the same)
 
-GRU (the rest of the model is the same)
-- https://www.kaggle.com/huikang/mastercopy-gru-hk/
+**GRU** https://www.kaggle.com/huikang/mastercopy-gru-hk/ (the rest of the model is the same)
 
-Ensemble with simple linear blending
-- https://www.kaggle.com/huikang/ensemble/
+**Ensemble** with simple linear blending https://www.kaggle.com/huikang/ensemble/
 
 For preprocessing, we used 7 embeddings and pymagnitude, a library that approximates word embeddings.
 https://github.com/tonghuikang/ndsc/blob/master/working/ndsc-dataset-tokeniser-presented.ipynb
